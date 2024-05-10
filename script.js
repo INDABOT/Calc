@@ -15,7 +15,7 @@ function Calculate() {
         alert("Invalid Expression");
     }
 }
-//incase I decide to add thr clear button
+//incase I decide to add the clear button
 function clearDisplay() {
     displayed.value = "0";
 }
