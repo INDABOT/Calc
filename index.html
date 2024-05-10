@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer ></script>
+</head>
+<body>
+
+<a href="https://github.com/INDABOT/Calculator-Ass">Repo Link</a>
+     
+     
+<div class="parent">
+<table>
+    <tr>
+            <input id="display" disabled value="0" />
+    </tr>
+<tr>
+    <td><button class="digit seven" onclick="display('7')">7</button></td>
+    <td><button class="digit" onclick="display('8')" >8</button></td>
+    <td><button class="digit" onclick="display('9')" >9</button></td>
+    <td><button class="operator" onclick="display('/')" >&divide;</button></td>
+</tr>
+<tr>
+    <td><button class="digit seven" onclick="display('4')" >4</button></td>
+    <td><button class="digit" onclick="display('5')" >5</button></td>
+    <td><button class="digit" onclick="display('6')" >6</button></td>
+    <td><button class="operator" onclick="display('*')" >&times;</button></td>
+</tr>
+<tr>
+    <td><button class="digit seven" onclick="display('1')" >1</button></td>
+    <td><button class="digit" onclick="display('2')" >2</button></td>
+    <td><button class="digit" onclick="display('3')" >3</button></td>
+    <td><button class="operator" onclick="display('-')" >&minus;</button></td>
+
+</tr>
+    <tr>
+        <td><button class="digit seven" onclick="display('0')" >0</button></td>
+        <td><button class="operator" onclick="display('.')" >.</button></td>
+        <td><button class="operator" onclick="display('+')" >+</button></td>
+        <td><button id="equals" class="equals" onclick="Calculate()" >&equals;</button></td>
+    </tr>
+</table>
+</div>
+</body>
+</html>
